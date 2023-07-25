@@ -91,10 +91,13 @@ body{
     background-color: aquamarine;
     border-radius: 15px;
     font-weight: bold;
-    color: #fff;
+    color: #716767;
     font-size: 15px;
     border: solid 1px rgb(111, 202, 202);
 }
+    #submit:hover{
+        background-color: rgb(115, 222, 222);
+    }
 .connect{
     display: flex;
     justify-content: center;
@@ -106,6 +109,9 @@ body{
     font-weight: bold;
     margin-left: 9px;
 }
+    #login:hover{
+        text-decoration: underline;
+    }
     #loginLink{
         text-decoration: none;
     }
@@ -130,7 +136,7 @@ body{
     width: 6%;
     margin: 8px 0 10px 15px;
 }
-#google{
+#google, #twitter, #fb{
     width: 17px;
 }
 

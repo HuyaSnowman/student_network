@@ -16,9 +16,10 @@ body{
     display: flex;
     margin: 8px 0 5px 0px;
     /* background-color: green; */
-    padding: 0px 12px 0 8px;
+    padding: 0px 12px 10px 8px;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid #cab6b6;
 }
 
 #bar{
@@ -45,9 +46,9 @@ body{
 #story{
     width: 290px;
     height: 75px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     /* background-color: green; */
-    border-top: 1px solid #cab6b6;
+    /* border-top: 1px solid #cab6b6; */
     border-bottom: 1px solid #cab6b6;
     padding: 2px 5px;
     display: flex;
@@ -98,7 +99,7 @@ body{
 }
 .wrapper{
     width: 290px;
-    height: 400px;
+    height: 470px;
     /* background-color: yellow; */
     padding: 5px 5px 0 5px;
     margin: 0 0 5px 0;

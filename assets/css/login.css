@@ -76,9 +76,12 @@ body{
     background-color: aquamarine;
     border-radius: 15px;
     font-weight: bold;
-    color: #fff;
+    color: #716767;
     font-size: 15px;
     border: solid 1px rgb(111, 202, 202);
+}
+#submit:hover{
+    background-color: rgb(115, 222, 222);
 }
 .forgetPassword, .SignUp{
     display: flex;
@@ -92,6 +95,9 @@ body{
     font-weight: bold;
     margin: -2px 0 0 0;
     font-size: 13px;
+}
+.SignUp:hover{
+    text-decoration: underline;
 }
     #signUplink{
         text-decoration: none;
