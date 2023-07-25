@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <!-- <link rel="stylesheet" href="./assets/javascript/home.js"> -->
+  </head>
+  <body>
+    <div class="container">
+      <div id="searchBar">
+        <a href="./pages/profile.html">
+          <div class="userProfile">
+            <img class="pic" src="./assets/images/her.png" alt="">
+          </div>
+        </a>
+        <form action="">
+          <input id="bar" type="search" placeholder="   Search...">
+        </form>
+          
+        <a href="./pages/notification.html"><i class="fa fa-bell" id="notification-icon"></i></a>
+      </div>
+
+      <div id="story">
+        <div class="box" >
+          <img class="background" src="./assets/images/flower.png" alt="">
+          <img class="profile" src="./assets/images/her.png" alt="">
+          <div class="name">Victori</div>
+        </div>
+        <div class="box">
+          <img class="background" src="./assets/images/picnic.png" alt="sunset view" title="sunset view">
+          <img class="profile" src="./assets/images/blonde.png" alt="">
+          <div class="name">Sarah   </div>
+        </div>
+        <div class="box">
+          <img class="background"  src="./assets/images/plane.png" alt="">
+          <img class="profile" src="./assets/images/massi.png" alt="">
+          <div class="name">Massi</div>
+        </div>
+        <div class="box">
+          <img class="background" src="./assets/images/sport.png" alt="">
+          <img class="profile" src="./assets/images/krisna.png" alt="">
+          <div class="name">Krisna</div>
+        </div>
+        <div class="box">
+          <img class="background"  src="./assets/images/quote.png" alt="">
+          <img class="profile" src="./assets/images/her.png" alt="">
+          <div class="name">Meme</div>
+        </div>
+        <div class="box">
+          <img class="background" src="./assets/images/movie.png" alt="">
+          <img class="profile" src="./assets/images/images.jpg" alt="">
+          <div class="name">Nattaly</div>
+        </div>
+      </div>
+
+      <div class="wrapper">
+
+        <div class="play">
+          <div class="userWrapper">
+              <div class="miniWrapper">
+                <div class="profileBox">
+                  <img  class="picture" src="./assets/images/blonde.png" alt="movie date" title="movie date">
+                  <div class="nameBox">
+                    <div class="username">Sarah</div>
+                    <div class="duration">
+                        <div>1h</div>
+                        <i class="fa fa-globe" id="globe"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="properties">
+                  <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="textBox">Enjoy your day while you are ....</div>
+              
+              <img  class="image" src="./assets/images/sideview.png" alt="movie date" title="movie date">
+              
+          </div>
+
+            <div class="wrapperBox">
+              <div class="quantityBox">
+                <div class="iconBox">
+                  <div class="iconee">
+                    
+                    <i class="fa fa-thumbs-o-up" id="liked">👍</i>
+                    <i class="fa fa-heart-o" id="heart">💜</i>
+                  </div>
+                  <div class="likeQuantity" id="quantity">1k </div>
+                </div>
+                <div class="commentBox">124 Comments</div>
+                <div class="shareBox">52 share </div>
+              </div>
+
+              <div class="optionBox">
+                <div class="likeBox">
+                  <img src="./assets/icons/like.png" id="thumb" onmouseover="mouseOver()" onmouseout="mouseOut()" onclick="like()">
+                  <!-- <i class="fa fa-thumbs-o-up" id="thumb" onmouseover="mouseOver()" onmouseout="mouseOut()" onclick="like()" >👍</i> -->
+                  <p class="feedbackText" id="likeText" onclick="like()" >Like </p>
+                  <div id="box" class="dropdown">
+
+                    <div id="giveLike" onclick="clickLike()">👍</div>
+                    <div id="giveLove" onclick="love()">❤️</div>
+                    <div id="laugh" onclick="haha()">😆</div>
+                    <div id="cry" onclick="sad()">😭</div>
+                    <div id="angry" onclick="angry()">😡</div>
+                    <div id="unlike" onclick="unlike()">👎</div>
+                    
+                </div>
+                </div>
+                <div class="cmtBox">
+                  <i class="fa fa-thumbs-o-up" id="cmt">💬</i>
+                  <p class="feedbackText">Comment </p>
+                </div>
+                <div class="shareeBox">
+                  <i class="fa fa-share" id="share"></i>
+                  <p class="feedbackText">share  </p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="play">
+          <div class="userWrapper">
+              <div class="miniWrapper">
+                <div class="profileBox">
+                  <img  class="picture" src="./assets/images/giselle.png" alt="movie date" title="movie date">
+                  <div class="nameBox">
+                    <div class="username">Aeri_Chan</div>
+                    <div class="duration">
+                        <div>9h</div>
+                        <i class="fa fa-globe" id="globe"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="properties">
+                  <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="textBox">last day together. See u guys again next year. </div>
+              
+              <img  class="image" src="./assets/images/travel.png" alt="" title="">
+              
+          </div>
+
+
+            <div class="wrapperBox">
+              <div class="quantityBox">
+                <div class="iconBox">
+                  <div class="iconee">
+                    <i class="fa fa-thumbs-o-up" id="liked">👍</i>
+                    <i class="fa fa-heart-o" id="heart">💜</i>
+                  </div>
+                  <div class="likeQuantity" id="quantity">369 </div>
+                </div>
+                <div class="commentBox">117 Comments</div>
+                <div class="shareBox">48 share </div>
+              </div>
+
+              <div class="optionBox">
+                <div class="likeBox">
+                  <i class="fa fa-thumbs-o-up" id="thumb">👍</i>
+                  <p class="feedbackText">Like </p>
+                </div>
+                <div class="cmtBox">
+                  <i class="fa fa-thumbs-o-up" id="cmt">💬</i>
+                  <p class="feedbackText">Comment </p>
+                </div>
+                <div class="shareeBox">
+                  <i class="fa fa-share" id="share"></i>
+                  <p class="feedbackText">share  </p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+      </div>
+
+
+      <div class="navigate-bar">
+        <i class="fa fa-home" id="home-icon"></i>
+        <a href="/pages/friend.html"><i class="fa fa-users" id="friend-icon"></i></a>
+        <i class="fa fa-plus-circle" id="post-icon"></i>
+        <a href="./pages/Chat.html"><i class="fa fa-comments" id="chat-icon"></i></a>
+        <a href="./pages/Menu bar.html"><i class="fa fa-bars" id="menuIcon"></i></a>
+      </div>
+    </div>
+    
+
+  </body>
+
+<script src="./assets/javascript/home.js">
+
+
+</script>
+ 
+</html>
