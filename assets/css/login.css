@@ -1,0 +1,179 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(211, 181, 136);
+}
+#container{
+    width: 300px;
+    height: 580px;
+    background-color: white;
+    margin: 57px 0px 0 0;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.logo-top{
+    background-color: aquamarine;
+    width: 100%;
+    height: 190px;
+    border-radius: 20px 20px 0px 0px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#logo{
+    width: 30%;
+    height: 40%;
+    border: solid 1px rgb(213, 206, 206);
+    border-radius: 50%;
+    margin: -10px 0px 10px 105px ;
+}
+.Name{
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+.Quote{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    margin-top: 3px;
+    color: gray;
+}
+.welcome-text{
+    margin: 15px 0 0 10px;
+    font-weight: bold;
+}
+.user-form{
+    /* background-color: green; */
+    padding: 20px 15px 0 15px;
+    display: flex;
+    justify-content: center;
+}
+.input{
+    width: 255px;
+    height: 30px;
+    border: solid 1px aquamarine;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#checkbox{
+    width: 15px;
+    height: 15px;
+    
+}
+#check{
+    font-size: 15px;
+    color: rgb(45, 198, 198);
+    display: block;
+}
+#submit{
+    width: 95px;
+    height: 32px;
+    margin: 25px 50px 10px 88px;
+    background-color: aquamarine;
+    border-radius: 15px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+    border: solid 1px rgb(111, 202, 202);
+}
+.forgetPassword, .SignUp{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin: 15px 0 8px 0;
+
+}
+.SignUp{
+    color: rgb(45, 198, 198);
+    font-weight: bold;
+    margin: -2px 0 0 0;
+    font-size: 13px;
+}
+    #signUplink{
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+/* 
+#logo-container{
+    width: 100%;
+    height: 40%;
+    background-color: aquamarine;
+    border-radius: 20px 20px 0px 0px;
+}
+#welcome-back{
+    margin: 10px 0 10px 22px;
+}
+#logo{
+    width: 25%;
+    height: 33%;
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+    position: relative;
+    left: 35%;
+    top: 15%;
+    
+}
+.name-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px
+}
+#quote{
+    font-size: 14px;
+    color: rgb(117, 111, 111);
+    bottom: 17px;
+    left: 105px;
+    top: 2px;
+}
+.form-input{
+    width: 85%;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #5BC6B7;
+    margin: 30px 0px 15px 21px;
+    border-radius: 5px;
+    display: block;
+}
+#check{
+    color: #5BC6B7;
+    font-size: 15px;
+    display: block;
+}
+#checkbox{
+    width: 16%;
+    height: 18px;
+}
+#submit{
+    width: 27%;
+    height: 31px;
+    font-size: 19px;
+    border-radius: 22px;
+    background-color: #5BC6B7;
+    position: relative;
+    left: 30%;
+    margin-top: 22px;
+}
+.log{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 8px 1px 0px 120px;
+}
+#new{
+    margin-left: 111px;
+}
+#signup{
+    margin-left: 5px;
+    color: #5BC6B7;
+    font-size: 17px;
+}
+ */

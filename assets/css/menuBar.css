@@ -1,0 +1,131 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(211, 181, 136);
+}
+.container{
+    width: 300px;
+    height: 580px;
+    background-color: white;
+    margin: 57px 0px 0 0 ;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+    .mini-container{
+        /* background-color: rgb(171, 217, 217); */
+        /* width: 280px; */
+        /* height: 530px; */
+        /* margin: 20px 0 0 0; */
+        border-radius: 15px 15px 0px 0px;
+    }
+        .top{
+            background-color: rgba(35, 123, 174, 0.568);
+            /* width: 270px; */
+            /* height: 70px; */
+            border-radius: 15px 15px 0 0;
+            padding: 5px 15px 8px 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: solid 2px rgb(167, 161, 161);
+        }
+            .profiles{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 10px;
+                
+                
+            }
+                .profile{
+                    width: 55px;
+                    height: 55px;
+                    border-radius: 35px;
+                }
+            .logout{
+                width: 60px;
+                height: 20px;
+                background-color: yellow;
+                border:  solid 1px gray;
+                border-radius: 8px;
+                /* margin: 0 5px 0 0; */
+                padding: 2px 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 14px;
+                font-weight: bold;
+                color: #8a7979;
+            }
+            .logout:hover{
+                background-color: rgb(242, 242, 21);
+            }
+        .wrapper{
+            /* width: 350px; */
+            height: 440px;
+            /* background-color: blue; */
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            /* align-items: center; */
+            padding: 10px ;
+            gap: 10px;
+        }
+            #linkConnect{
+                text-decoration: none;
+                color: black;
+            }
+            #linkConnect:hover{
+                color: rgb(41, 50, 176);
+                background-color: rgb(222, 216, 216);
+                border-radius: 5px;
+            }
+        .option{
+            /* width: 250px; */
+            /* height: 55px; */
+            border: 1px solid gainsboro;
+            background-color: rgba(222, 226, 231, 0.689);
+            border-radius: 5px;
+            padding: 3px 10px 3px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* margin: 0 0 10px 0; */
+        }
+        .optionInfo{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 0 0 0 8px;
+        }
+        .icons{
+            width: 40px;
+            height: 40px;
+        }
+
+
+    .navigate-bar{
+        /* background-color: red; */
+        width: 275px;
+        height: 15px;
+        border-radius: 0px 0 20px 20px;
+        display: flex;
+        justify-content: space-between;
+        padding: 13px 15px 15px 10px;
+        border-top: solid 1px gray;
+    }
+    #home-icon, #friend-icon, #post-icon, #chat-icon, #menuIcon{
+        color: #928585;
+        font-size: 18px;
+    }
+    #post-icon{
+        font-size: 30px;
+        margin: -5px 0 0 0; 
+    }
+    #menuIcon{
+        color: black;
+    }

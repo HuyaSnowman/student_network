@@ -1,0 +1,178 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(211, 181, 136);
+}
+.container{
+    width: 300px;
+    height: 580px;
+    background-color: white;
+    margin: 10px 0px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.userBox{
+    width: 275px;
+    height: 40px;
+    /* background-color: red; */
+    padding: 10px 15px 10px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userProfile{
+    width: 140px;
+    height: 50px;
+    /* background-color: aquamarine; */
+    display: flex;
+    gap: 15px;
+    /* justify-content: center; */
+    align-items: center;
+}
+    #arrow{
+        color: black;
+    }
+.profile{
+    width: 45px;
+    height: 45px;
+    /* background-color: rgb(19, 12, 82); */
+    border-radius: 30px;
+}
+
+.pic{
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    margin: 0px -10px 0px 0px;
+}
+
+#status{
+    font-size: 7px;
+    color: greenyellow;
+    border: solid 2px #fff;
+    border-radius: 20px;
+    margin: -10px 0 0 34px;
+}
+.connect{
+    width: 50px;
+    height: 50px;
+    /* background-color: blue; */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#phone, #video{
+    font-size: 14px;
+    color: rgb(195, 177, 177);
+}
+hr{
+    margin: -1px 0 0 0 ;
+}
+
+.chatBox{
+    width: 300px;
+    height: 470px;
+    background-color: rgba(223, 229, 223, 0.688);
+    padding: 10px 0 0 0;
+    overflow: scroll;
+}
+.chatBox::-webkit-scrollbar {   /* Hide scrollbar for Chrome, Safari and Opera */
+    display: none;
+    -ms-overflow-style: none;       /* IE and Edge */
+    scrollbar-width: none;          /* Firefox */
+}
+.you{
+    /* width: 285px; */
+    /* height: 50px; */
+    /* background-color: pink; */
+    padding: 3px 8px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: end;
+    gap: 13px;
+}
+#friend{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    /* margin: 5px 0 0 0; */
+}
+.textBox, .textBoxme{
+    /* width: 150px; */
+    height: 33px;
+    background-color: rgba(197, 208, 208, 0.877);
+    /* border-radius: 8px 8px 0 8px; */
+    border-radius: 8px 8px 8px 0px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 0 8px;
+    margin: 0 0 5px 0;
+}
+.textBoxme{
+    border-radius: 8px 8px 0 8px;
+    background-color: rgba(127, 255, 212, 0.714);
+    justify-content: end;
+}
+.me{
+    width: 285px;
+    height: 50px;
+    /* background-color: rgba(238, 207, 212, 0.618); */
+    padding: 0 8px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 13px;
+}
+.time{
+    width: 300px;
+    /* background-color: pink; */
+    padding: 2px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 8px;
+    color: gray;
+}
+.responeBox{
+    /* width: 300px; */
+    height: 35px;
+    /* background-color: yellow; */
+    border-top: solid 1px gray;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 8px 0 7px;
+}
+.asset{
+    /* background-color: aquamarine; */
+    /* height: 15px; */
+    padding: 2px;
+    display: flex;
+    gap: 10px;
+}
+#paperclip, #camera, #photo , #microphone{
+    color: gray;
+    font-size: 13px;
+}
+.replyText{
+    /* background-color: green; */
+    padding: 2px;
+}
+#search{
+    background-color: rgb(246, 239, 239);
+    margin: 17px 0 0 0 ;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 2px 5px;
+    /* font-size: 9px; */
+    /* width: 20px; */
+}
+.react{
+    /* background-color: pink; */
+    padding: 2px;
+}

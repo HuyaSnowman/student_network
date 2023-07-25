@@ -1,0 +1,261 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(211, 181, 136);
+}
+.container{
+    width: 300px;
+    height: 580px;
+    background-color: white;
+    margin: 10px 0px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.top{
+    /* background-color: blue; */
+    width: 290px;
+    height: 50px;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: solid 2px gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 10px;
+    margin: 0 0 8px 0;
+}
+    .photo{
+        width: 25px;
+        height: 25px;
+        border-radius: 20px;
+    }
+/* .topInfo{
+    display: flex;
+    gap: 10px;
+} */
+.asset{
+    display: flex;
+    gap: 15px;
+    margin: 3px 15px 0 0;
+}
+
+#menu{
+    margin: 7px 0 0 5px;
+}
+.text{
+    font-size: 25px;
+}
+
+.infoBox{
+    /* width: 290px; */
+    /* height: 45px; */
+    /* background-color: red; */
+    margin: 0 0 8px 0;
+    padding: 1px 10px;
+    display: flex;
+    gap: 10px;
+}
+.info{
+    /* width: 40px; */
+    /* height: 20px; */
+    background-color: rgba(198, 190, 190, 0.781);
+    padding: 4px 10px; 
+    font-size: 11px;
+    border-radius: 9px;
+    border: solid 1px rgb(185, 155, 155);
+}
+
+.friendBox{
+    width: 288px;
+    height: 410px;
+    /* border-bottom: solid 1px black; */
+    /* background-color: aquamarine; */
+    border-top: solid 1px gray;
+    padding: 6px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.friendBox::-webkit-scrollbar {   /* Hide scrollbar for Chrome, Safari and Opera */
+    display: none;
+    -ms-overflow-style: none;       /* IE and Edge */
+    scrollbar-width: none;          /* Firefox */
+}
+.request{
+    /* width: 280px; */
+    /* height: 200px; */
+    /* background-color: rebeccapurple; */
+    padding: 2px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin: 0px 0 18px 0;
+}
+.requestText{
+    /* width: 100%; */
+    height: 30px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+    #requestTxt{
+        background-color: rgb(38, 131, 238);
+        color: #fff;
+    }
+    #seeAll{
+        padding: 5px;
+        /* background-color: #fff; */
+        border-radius: 3px;
+        font-size: 13px;
+        color: rgb(0, 76, 255);
+    }
+.requestInfo{
+    width: 283px;
+    /* height: 50px; */
+    /* background-color: red; */
+    /* padding: 0 6px; */
+    display: flex;
+    /* gap: 8px; */
+    justify-content: space-between;
+    align-items: center;
+}
+    .userBox{
+        width: 65px;
+        height: 80px;
+        /* background-color: pink; */
+        padding: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .pic{
+            width: 65px;
+            height: 65px;
+            border-radius: 35px;
+            
+        }
+    .wrapper{
+        width: 205px;
+        /* height: 60px; */
+        /* background-color: gray; */
+        /* padding: 1px; */
+        display: flex;
+        gap: 2px;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+        .usernameBox{
+            width: 198px;
+            /* height: 10px; */
+            /* background-color: aqua; */
+            padding: 1px;
+            display: flex;
+            gap: 35px;
+            justify-content: space-between;
+            align-items: center;
+        }
+            .username{
+                /* width: 20px; */
+                /* background-color: green; */
+                /* padding: 1px; */
+                font-size: 14px;
+            }
+            .duration{
+                /* width: 50px; */
+                /* background-color: pink; */
+                /* padding: 2px; */
+                font-size: 12px;
+                color: #928585;
+            }
+        .mutual{
+            /* width: 50px; */
+            /* background-color: orange; */
+            /* padding: 1px; */
+            font-size: 14px;
+            color: #6b6464;
+            margin: 0px 0 5px 0;
+        }
+        .optionBox{
+            width: 200px;
+            /* background-color: rgb(202, 16, 143); */
+            padding: 1px;
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            /* margin: 0 0px 0 -5px; */
+        }
+            .option{
+                background-color: gainsboro;
+                border: none;
+                width: 120px;
+                height: 23px;
+                border-radius: 5px;
+                padding: 5px 7px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                #confirm{
+                    background-color: rgb(41, 41, 226);
+                    color: #fff;
+                    border: solid 1px gray;
+                }
+                #confirm:hover{
+                    background-color: blue;              }
+                #delete{
+                    font-weight: 600;
+                    border: solid 1px rgb(159, 156, 156);
+                }
+                #delete:hover{
+                    background-color: rgb(231, 36, 36);
+                }
+
+.seeMore{
+    width: 282px;
+    padding: 1px;
+    /* background-color: green; */
+    justify-content:  center;
+    font-size: 14px;
+    color: rgb(0, 76, 255);
+    display: flex;
+}
+    #dropDown{
+        margin: -1px 0 0 8px;
+    }
+
+.suggestion{
+    width: 290px;
+    height: 300px;
+    /* background-color: yellow; */
+}
+    #addFriend{
+        width: 150px;
+        padding: 2px;
+        background-color: rgb(41, 41, 226);
+        color: #fff;
+    }
+
+
+.navigate-bar{
+    /* background-color: red; */
+    width: 275px;
+    height: 15px;
+    border-radius: 0px 0 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 15px 10px;
+    border-top: solid 1px gray;
+}
+#home-icon, #friend-icon, #post-icon, #chat-icon, #menuCon{
+    color: #928585;
+    font-size: 18px;
+}
+#post-icon{
+    font-size: 30px;
+    margin: -5px 0 0 0; 
+}
+#friend-icon{
+    color: black;
+}
