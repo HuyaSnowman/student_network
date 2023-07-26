@@ -164,6 +164,10 @@ body{
                 flex-direction: column;
 
             }
+            .linkConnect{
+                text-decoration: none;
+                color: black;
+            }
                 .username{
                     width: 80px;
                     /* height: 25px; */

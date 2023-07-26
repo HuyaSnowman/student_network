@@ -23,10 +23,10 @@ body{
         border-radius: 15px 15px 0px 0px;
     }
         .top{
-            background-color: rgba(35, 123, 174, 0.568);
+            background-color: rgba(127, 255, 212, 0.709);;
             /* width: 270px; */
             /* height: 70px; */
-            border-radius: 15px 15px 0 0;
+            border-radius: 19px 19px 0 0;
             padding: 5px 15px 8px 8px;
             display: flex;
             justify-content: space-between;
